@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+header {
+    background-color: rgb(170, 170, 170);
+    color: rgb(80, 24, 81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.port{
+    padding-left: 20px;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    padding-right: 40px;
+    display: inline-block;
+    margin: 10px 10px;
+    padding-top: 4px;
+    font-size: 18px;
+}
+
+.navbar li a {
+    padding: 1px 1px;
+    text-decoration: none;
+    color: rgb(80, 24, 81);
+}
+
+.navbar li a:hover {
+    color: rgb(168, 54, 170);
+}
+
+.btn{
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover{
+    background-color: rgb(203, 203, 203);
+}
+.btn img {
+    height: 30px;
+    width: 30px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#right{
+    height: 400px;
+    width: 350px;
+    padding-right:370px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.left{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#intro{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.content{
+    padding-left: 30px;
+}
+
+.content p{
+    font-size: 18px;
+}
+ .content ul{
+    font-size: 18px;
+ }
+
+ #contact label{
+    font-size: 18px;
+ }
+
+ #contact button{
+    font-size: 18px;
+ }
