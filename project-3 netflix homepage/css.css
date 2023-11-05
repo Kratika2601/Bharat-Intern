@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#141414;
+    color: #fff;
+}
+
+header::before{
+    content: "";
+    background: url("img/bg.png") no-repeat center center/cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+header { 
+    padding: 0px;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;
+    padding-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+select{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+main {
+    padding: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 41px;
+}
+
+.hero p {
+    font-size: 21px;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size: 19px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #141414;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
